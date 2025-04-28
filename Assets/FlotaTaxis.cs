@@ -36,7 +36,7 @@ public class FlotaTaxis : MonoBehaviour
         {
             cantidadDescuento = (precioTotal / 100) * 20;
             precioFinal = precioTotal - cantidadDescuento;
-            Debug.Log("La cantidad de descuento aplicado por sobrepasar los 100L es de "+cantidadDescuento+" siendo el precio final de "+precioFinal+"pesos.");
+            Debug.Log("La cantidad de descuento aplicado por sobrepasar los 100L es de "+cantidadDescuento+" pesos siendo el precio final de "+precioFinal+" pesos.");
         }
 
     }
